@@ -21,5 +21,44 @@
   "emoji": "📿",
   "thumb": "./assets/thumbs/2.png"
 }  
-
+{
+  "nombre": "Billiet Peggy",
+  "pais": "Bélgica",
+  "ciudad": "Wevelgem",
+  "objeto": "Auriculares",
+  "mensaje": "Yo vivo en Belgica y siempre escucho a Pablo en el avión con estés auriculares.",
+  "emoji": "🎧",
+  "thumb": "./assets/thumbs/3.png"
+}  
+{
+  "nombre": "Clube de Fãs Pablo Alborán Portugal",
+  "usuario": "@pabloalboran_portugal",
+  "red": "instagram",
+  "pais": "Portugal",
+  "objeto": "La bandera del club de fans de Portugal",
+  "mensaje": "Nos acompaña a cada concierto y en cada viaje, representa el amor, cariño y respeto que tenemos por Pablo y su música!",
+  "emoji": "🏳️",
+  "thumb": "./assets/thumbs/4.png"
+} 
+{
+  "nombre": "Soledad Oyarbide",
+  "usuario": "@soleoyarbide86",
+  "red": "instagram",
+  "pais": "Uruguay",
+  "ciudad": "Montevideo",
+  "objeto": "Remera del Club de Fans Solamente Tú Uruguay",
+  "mensaje": "Porque son familia y siempre parte mis aventuras Alboranezcas :-)",
+  "emoji": "👕",
+  "thumb": "./assets/thumbs/5.png"
+}
+ {
+  "nombre": "Viviana Sil",
+  "usuario": "@vivi05.sil",
+  "red": "instagram",
+  "pais": "Uruguay",
+  "objeto": "Varios objetos",
+  "mensaje": "Mi tapaboca de Vertigo porque fue cuando vivimos una experiencia especial conectados en concierto virtual. Mi baby Pelón de Pablo porque apoyamos siempre esas causas. Y las portales de los álbumes para que me acompañe siempre. Gracias al Club de fan Solamente Tú Uruguay, una gran familia que compartimos un mismo amor por nuestro Pablo.",
+  "emoji": "😷",
+  "thumb": "./assets/thumbs/6.png"
+}
 ]
