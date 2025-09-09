@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Día Mundial Alboranista · Mapa de Maletas (DMA'25)</title>
+  <meta name="description" content="Archivo vivo del fandom alboranista: nuestro viaje colectivo con maletas, objetos y razones de viaje.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <h1>Día Mundial Alboranista 2025</h1>
+      <p class="tagline">Bienvenid@ al <strong>KM0</strong> del fandom alboranista</p>
+    </div>
+    <div class="hero-luggage" aria-hidden="true">
+      <img src="./assets/maleta.png" alt="" />
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="video-panel" aria-labelledby="video-title">
+      <div class="video-header">
+        <h2 id="video-title">Vídeo del viaje</h2>
+        <div class="chips">
+          <span class="chip">#DíaMundialAlboranista</span>
+          <span class="chip">22·09</span>
+        </div>
+      </div>
+      <div class="video-frame">
+        <video controls playsinline preload="metadata" poster="./assets/poster.jpg">
+          <source src="./assets/sample.mp4" type="video/mp4">
+          Tu navegador no soporta el elemento de vídeo.
+        </video>
+      </div>
+      <div class="cta">
+        <a class="btn primary" href="./assets/pasaporte.pdf" download>Descargar pasaporte (PDF)</a>
+        <a class="btn ghost" href="./assets/pasaporte_story.png" download>Formato historias (PNG)</a>
+      </div>
+      <p class="hint">La recepción de vídeos está cerrada. ¡Gracias por ser parte del viaje! 🌍</p>
+    </section>
+
+    <aside class="wall-panel" id="wall" aria-labelledby="wall-title">
+      <header class="wall-header">
+        <h2 id="wall-title">Mapa de maletas</h2>
+        <div class="controls">
+          <label><span class="sr">Buscar</span><input id="search" type="search" placeholder="Buscar por usuario/país/objeto…" /></label>
+          <label><span class="sr">Filtrar por país</span><select id="country-filter"><option value="">Todos los países</option></select></label>
+          <span id="count" class="count">0 viajeros</span>
+        </div>
+      </header>
+      <ul id="grid" class="grid" aria-live="polite"></ul>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="belt">
+      <div aria-hidden="true" class="belt-items">
+        <img src="./assets/maleta-icon.svg" alt="" />
+        <img src="./assets/maleta-icon.svg" alt="" />
+        <img src="./assets/maleta-icon.svg" alt="" />
+      </div>
+    </div>
+    <p>#DíaMundialAlboranista · 22 de septiembre · Hecho con cariño por la comunidad</p>
+  </footer>
+
+  <script src="./script.js" type="module"></script>
+</body>
+</html>

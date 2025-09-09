@@ -1,0 +1,18 @@
+[
+  {
+    "usuario": "@maria.albo",
+    "pais": "España",
+    "ciudad": "Málaga",
+    "objeto": "Entrada del primer concierto",
+    "mensaje": "Aquí empezó mi KM0.",
+    "emoji": "🎫"
+  },
+  {
+    "usuario": "@club_bsas",
+    "pais": "Argentina",
+    "ciudad": "Buenos Aires",
+    "objeto": "Bandera celeste y blanca",
+    "mensaje": "Nuestra raíz siempre viaja con nosotros.",
+    "emoji": "🇦🇷"
+  }
+]
