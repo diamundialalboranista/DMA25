@@ -52,6 +52,18 @@ body{
   }
 }
 
+a {
+  color: var(--accent);      /* burdeos */
+  font-weight: bold;
+  text-decoration: none;     /* sin subrayado */
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #a73a3d;            /* un tono más claro que var(--accent) */
+}
+
+
 /* Video panel (estrecho tipo reels) */
 .video-panel{
   background: var(--paper);
