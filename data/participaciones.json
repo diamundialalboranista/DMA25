@@ -1,14 +1,25 @@
 [
 {
-  "nombre": "María",
-  "usuario": "@maria.albo",
+  "nombre": "Andrea",
+  "usuario": "@andreacr03",
   "red": "instagram",
   "pais": "España",
-  "ciudad": "Málaga",
-  "objeto": "Entrada del primer concierto",
-  "mensaje": "Aquí empezó mi KM0.",
-  "emoji": "🎫",
-  "thumb": "./assets/thumbs/maria.jpg"
+  "ciudad": "Barcelona",
+  "objeto": "Mi madre",
+  "mensaje": "Es una persona muy luchadora y muy fanática de Pablo Alborán igual que yo, y siempre hemos querido ir a un concierto suyo y nuestro sueño algún día es poder conocerlo en persona. Ya que cuando lo íbamos a conocer en persona, lamentablemente murió mi abuela y no pudimos ir a conocerlo ni a su concierto.",
+  "emoji": "👩🏻‍👧🏻",
+  "thumb": "./assets/thumbs/1.png"
 }
+{
+  "nombre": "Micaela Anabel",
+  "usuario": "@micaanabelmartinez",
+  "red": "instagram",
+  "pais": "Argentina",
+  "ciudad": "Rosario",
+  "objeto": "Dije",
+  "mensaje": "Más que guardar en la maleta es llevarla puesta, es un dije de un rompecabezas que nos regaló mi abuela y lo comparto con mis hermanos.",
+  "emoji": "📿",
+  "thumb": "./assets/thumbs/2.png"
+}  
 
 ]
