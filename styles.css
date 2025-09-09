@@ -31,7 +31,11 @@ body{
 }
 .tagline{margin:0; color: var(--muted)}
 .hero-luggage img{width:120px; filter: drop-shadow(0 6px 12px rgba(0,0,0,.15)); animation: float 3s ease-in-out infinite}
-@keyframes float{0%{transform:translateY(0)}50%{transform:translateY(-6px)}100%{transform:translateY(0)}
+@keyframes float{
+  0%{transform:translateY(0)}
+  50%{transform:translateY(-6px)}
+  100%{transform:translateY(0)}
+} /* <-- esta llave de cierre faltaba */
 
 /* Layout */
 .layout{display:grid; grid-template-columns: 1fr; gap:24px; padding:24px}
