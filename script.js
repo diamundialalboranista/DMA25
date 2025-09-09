@@ -30,15 +30,17 @@ function renderGrid(items){
     const li = document.createElement('li');
     li.className = 'card';
     li.innerHTML = `
-      <div class="thumb">${thumbHTML}</div>
-      <div class="meta">
-        <b class="nombre">${i.nombre}</b><br>
-        <small>${i.pais} · ${i.ciudad}</small><br>
-        <small><em>${redHTML} ${i.usuario}</em></small>
-        <p><strong>Objeto:</strong> ${i.objeto}</p>
-        <p><em>Por qué es importante:</em> ${i.mensaje}</p>
-      </div>
-    `;
+  <div class="thumb">${thumbHTML}</div>
+  <div class="meta">
+    <b class="nombre">${i.nombre}</b><br>
+    <small>${i.pais} · ${i.ciudad}</small><br>
+    <small class="social"><em><img src="./assets/icons/${i.red}.svg" alt="${i.red}" class="red-icon"> ${i.usuario}</em></small>
+    <div class="objeto">
+      <p><strong>Objeto:</strong> ${i.objeto}</p>
+      <p><em>Por qué es importante:</em> ${i.mensaje}</p>
+    </div>
+  </div>
+`;
     grid.appendChild(li);
   });
   document.getElementById('count').textContent = `${items.length} viajeros`;

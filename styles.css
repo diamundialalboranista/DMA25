@@ -27,7 +27,7 @@ body{
 }
 .brand h1{
   margin:0 0 6px; font-family: "Big Shoulders Display", system-ui, sans-serif; font-weight:800;
-  letter-spacing:.3px; color: var(--accent); font-size: clamp(28px, 3vw, 40px);
+  letter-spacing:.3px; color: var(--accent); font-size: clamp(28px, 3vw, 40px); text-transform: uppercase;
 }
 .tagline{margin:0; color: var(--muted)}
 .hero-luggage img{width:120px; filter: drop-shadow(0 6px 12px rgba(0,0,0,.15)); animation: float 3s ease-in-out infinite}
@@ -63,7 +63,7 @@ body{
   margin-inline: auto;
 }
 .video-header{display:flex; align-items:center; justify-content:space-between; gap:12px}
-.video-header h2{margin:0; font-family: "Big Shoulders Display"; color: var(--accent)}
+.video-header h2{margin:0; font-family: "Big Shoulders Display"; color: var(--accent); text-transform: uppercase}
 .chips{display:flex; gap:8px; flex-wrap:wrap}
 .chip{background: var(--chip); color: var(--ink); padding:6px 10px; border-radius:999px; font-size:.85rem}
 
@@ -88,7 +88,7 @@ body{
   box-shadow: 0 10px 20px rgba(0,0,0,.04);
 }
 .wall-header{display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap}
-.wall-header h2{margin:0; font-family: "Big Shoulders Display"; color: var(--accent)}
+.wall-header h2{margin:0; font-family: "Big Shoulders Display"; color: var(--accent); text-transform: uppercase}
 .controls{display:flex; align-items:center; gap:10px; flex-wrap:wrap}
 .controls input,.controls select{padding:10px 12px; border-radius:10px; border:1px solid #e6d8c9; background:#fff}
 .count{color: var(--muted); font-size:.9rem}
@@ -140,6 +140,15 @@ body{
 .meta p{margin:6px 0 0; color:#4a4037}
 
 .more{display:none; margin-top:12px}
+.meta .social {
+  display: block;
+  margin-top: 2px;       /* muy pegadito al país/ciudad */
+  color: var(--muted);
+}
+
+.meta .objeto {
+  margin-top: 8px;       /* aire antes de empezar con el objeto */
+}
 
 /* Footer */
 .site-footer{padding:26px; text-align:center; color: var(--muted)}
