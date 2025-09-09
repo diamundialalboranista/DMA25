@@ -33,7 +33,7 @@ function renderGrid(items){
   <div class="thumb">${thumbHTML}</div>
   <div class="meta">
     <b class="nombre">${i.nombre}</b><br>
-    <small>${i.pais} · ${i.ciudad}</small><br>
+    <small>${i.ciudad} · ${i.pais}</small>
     <small class="social"><em><img src="./assets/icons/${i.red}.svg" alt="${i.red}" class="red-icon"> ${i.usuario}</em></small>
     <div class="objeto">
       <p><strong>Objeto:</strong> ${i.objeto}</p>
