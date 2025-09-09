@@ -1,15 +1,19 @@
-# DMA'25 Mapa de Maletas (versión completa)
+# DMA'25 · Mapa de maletas — v3 (completa)
 
-Archivos listos para subir a GitHub Pages.
+Incluye:
+- Títulos con **Big Shoulders Display** (Google Fonts).
+- Cuerpo con **Helvetica Neue** (con fallbacks).
+- Vídeo vertical más **estrecho** (mejor en desktop).
+- **Miniatura por participante** con campo `thumb` en JSON.
+- **Filtro por país** corregido (normalización) y **búsqueda**.
+- **Paginación** con botón “Ver más” (12 por página).
+- Botones para descargar **pasaporte** (PDF + stories).
+- Dinámica **cerrada** (sin formulario).
 
-- `index.html` página principal
-- `styles.css` estilos
-- `script.js` lógica para muro de viajeros
-- `data/participaciones.json` participaciones de ejemplo
-- `assets/` imágenes, vídeo y pasaporte
+## Publicación
+1. Sube toda la carpeta al repo (branch `main`, root).
+2. Activa GitHub Pages: Settings → Pages → Deploy from a branch → `main` / root.
 
-### Cómo publicar
-1. Crea un repo en GitHub y sube todos los archivos.
-2. Settings > Pages > Deploy from a branch > main/root.
-3. Sustituye en `assets/` tus imágenes, vídeo y pasaporte final.
-
+## Personaliza
+- Reemplaza `assets/sample.mp4`, `poster.jpg`, `maleta.png`, `paper-texture.png`, `pasaporte.pdf`, `pasaporte_story.png` por los definitivos.
+- Añade tus miniaturas en `assets/thumbs/` y referencia en `data/participaciones.json` como `thumb`.

@@ -5,9 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Día Mundial Alboranista · Mapa de Maletas (DMA'25)</title>
   <meta name="description" content="Archivo vivo del fandom alboranista: nuestro viaje colectivo con maletas, objetos y razones de viaje.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
@@ -47,18 +45,30 @@
       <header class="wall-header">
         <h2 id="wall-title">Mapa de maletas</h2>
         <div class="controls">
-          <label><span class="sr">Buscar</span><input id="search" type="search" placeholder="Buscar por usuario/país/objeto…" /></label>
-          <label><span class="sr">Filtrar por país</span><select id="country-filter"><option value="">Todos los países</option></select></label>
+          <label class="control">
+            <span class="sr">Buscar</span>
+            <input id="search" type="search" placeholder="Buscar por usuario/país/objeto…" />
+          </label>
+          <label class="control">
+            <span class="sr">Filtrar por país</span>
+            <select id="country-filter">
+              <option value="">Todos los países</option>
+            </select>
+          </label>
           <span id="count" class="count">0 viajeros</span>
         </div>
       </header>
+
       <ul id="grid" class="grid" aria-live="polite"></ul>
+      <button id="load-more" class="btn ghost more">Ver más</button>
     </aside>
   </main>
 
   <footer class="site-footer">
     <div class="belt">
       <div aria-hidden="true" class="belt-items">
+        <img src="./assets/maleta-icon.svg" alt="" />
+        <img src="./assets/maleta-icon.svg" alt="" />
         <img src="./assets/maleta-icon.svg" alt="" />
         <img src="./assets/maleta-icon.svg" alt="" />
         <img src="./assets/maleta-icon.svg" alt="" />

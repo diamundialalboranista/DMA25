@@ -5,7 +5,8 @@
     "ciudad": "Málaga",
     "objeto": "Entrada del primer concierto",
     "mensaje": "Aquí empezó mi KM0.",
-    "emoji": "🎫"
+    "emoji": "🎫",
+    "thumb": "./assets/thumbs/maria.jpg"
   },
   {
     "usuario": "@club_bsas",
@@ -13,6 +14,16 @@
     "ciudad": "Buenos Aires",
     "objeto": "Bandera celeste y blanca",
     "mensaje": "Nuestra raíz siempre viaja con nosotros.",
-    "emoji": "🇦🇷"
+    "emoji": "🇦🇷",
+    "thumb": "./assets/thumbs/bsas.jpg"
+  },
+  {
+    "usuario": "@albo.mx",
+    "pais": "México",
+    "ciudad": "CDMX",
+    "objeto": "Libreta de ideas",
+    "mensaje": "Yo aporto organización y mucho amor.",
+    "emoji": "📓",
+    "thumb": "./assets/thumbs/mx.jpg"
   }
 ]
