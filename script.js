@@ -18,22 +18,32 @@ function renderGrid(items){
   items.forEach(i => {
     const hasThumb = Boolean(i.thumb);
     const thumbHTML = hasThumb
-      ? `<img src="${i.thumb}" alt="Objeto de ${i.usuario}" class="thumb-img">`
+      ? `<img src="${i.thumb}" alt="Objeto de ${i.nombre}" class="thumb-img">`
       : `${i.emoji || '🧳'}`;
+
+    // ruta del icono svg según la red
+    const iconPath = i.red ? `./assets/icons/${i.red}.svg` : null;
+    const redHTML = iconPath 
+      ? `<img src="${iconPath}" alt="${i.red}" class="red-icon">`
+      : "";
+
     const li = document.createElement('li');
     li.className = 'card';
     li.innerHTML = `
       <div class="thumb">${thumbHTML}</div>
       <div class="meta">
-        <b>${i.usuario}</b> · <small>${i.pais || ''}${i.ciudad ? ' · ' + i.ciudad : ''}</small>
+        <b class="nombre">${i.nombre}</b><br>
+        <small>${i.pais} · ${i.ciudad}</small><br>
+        <small><em>${redHTML} ${i.usuario}</em></small>
         <p><strong>Objeto:</strong> ${i.objeto}</p>
-        <p><em>Razón de mi viaje:</em> ${i.mensaje}</p>
+        <p><em>Por qué es importante:</em> ${i.mensaje}</p>
       </div>
     `;
     grid.appendChild(li);
   });
   document.getElementById('count').textContent = `${items.length} viajeros`;
 }
+
 
 function countrySet(items){
   return [...new Set(items.map(i => normalizeCountry(i.pais)).filter(Boolean))].sort();
