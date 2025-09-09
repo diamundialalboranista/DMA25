@@ -15,36 +15,38 @@ let state = { all: [], filtered: [], page: 1 };
 function renderGrid(items){
   const grid = document.getElementById('grid');
   grid.innerHTML = '';
+
   items.forEach(i => {
     const hasThumb = Boolean(i.thumb);
     const thumbHTML = hasThumb
       ? `<img src="${i.thumb}" alt="Objeto de ${i.nombre}" class="thumb-img">`
       : `${i.emoji || '🧳'}`;
 
-    // ruta del icono svg según la red
-    const iconPath = i.red ? `./assets/icons/${i.red}.svg` : null;
-   const redHTML = i.red ? `<img src="./assets/icons/${i.red}.svg" class="red-icon" alt="${i.red}"> ${i.usuario||''}` : '';
-
+    // si hay red y usuario, prepara el HTML
+    const hasSocial = i.red && i.usuario;
+    const redHTML = hasSocial
+      ? `<small class="social"><em><img src="./assets/icons/${i.red}.svg" alt="${i.red}" class="red-icon"> ${i.usuario}</em></small>`
+      : '';
 
     const li = document.createElement('li');
     li.className = 'card';
     li.innerHTML = `
-  <div class="thumb">${thumbHTML}</div>
-  <div class="meta">
-    <b class="nombre">${i.nombre}</b><br>
-    <small>${i.ciudad} · ${i.pais}</small>
-    <small class="social"><em><img src="./assets/icons/${i.red}.svg" alt="${i.red}" class="red-icon"> ${i.usuario}</em></small>
-    <div class="objeto">
-      <p><strong>Objeto:</strong> ${i.objeto}</p>
-      <p><em>Por qué es importante:</em> ${i.mensaje}</p>
-    </div>
-  </div>
-`;
+      <div class="thumb">${thumbHTML}</div>
+      <div class="meta">
+        <b class="nombre">${i.nombre}</b>
+        <small>${i.ciudad} · ${i.pais}</small>
+        ${redHTML}
+        <div class="objeto">
+          <p><strong>Objeto:</strong> ${i.objeto}</p>
+          <p><em>Por qué es importante:</em> ${i.mensaje}</p>
+        </div>
+      </div>
+    `;
     grid.appendChild(li);
   });
+
   document.getElementById('count').textContent = `${items.length} viajeros`;
 }
-
 
 function countrySet(items){
   return [...new Set(items.map(i => normalizeCountry(i.pais)).filter(Boolean))].sort();

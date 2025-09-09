@@ -116,7 +116,7 @@ a:hover {
   display: grid;
   grid-template-columns: 120px 1fr; /* antes 72px, damos más peso a la imagen */
   gap: 16px;
-  align-items: center;
+  align-items: start;
   padding: 16px;
   background: #fff;
   border: 1px solid #f0e6d9;
@@ -129,13 +129,12 @@ a:hover {
   overflow: hidden;
   border: 1px solid #e6d8c9;
   background: #faf7f2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
   font-size: 36px; /* emoji más grande si no hay imagen */
 }
 
 .thumb-img{width:100%; height:100%; object-fit:cover; display:block}
+.meta{ align-self: start; }
 .meta .nombre {
   color: var(--accent);
   font-size: 1.05rem;
