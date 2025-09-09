@@ -23,9 +23,8 @@ function renderGrid(items){
 
     // ruta del icono svg según la red
     const iconPath = i.red ? `./assets/icons/${i.red}.svg` : null;
-    const redHTML = iconPath 
-      ? `<img src="${iconPath}" alt="${i.red}" class="red-icon">`
-      : "";
+   const redHTML = i.red ? `<img src="./assets/icons/${i.red}.svg" class="red-icon" alt="${i.red}"> ${i.usuario||''}` : '';
+
 
     const li = document.createElement('li');
     li.className = 'card';
