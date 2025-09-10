@@ -164,3 +164,29 @@ a:hover {
 
 /* Accessibility helpers */
 .sr{position:absolute; left:-9999px}
+
+.thumb-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.thumb-img {
+  display: block;
+  border-radius: 6px;
+  max-width: 100%;
+}
+
+.seal {
+  position: absolute;
+  bottom: 5px;    /* puedes cambiar a top: 5px */
+  right: 5px;     /* o left: 5px si quieres */
+  font-size: 2rem;
+  opacity: 0.6;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  padding: 5px;
+  background: rgba(255,255,255,0.6); /* da contraste sobre la foto */
+  transform: rotate(-15deg);
+  pointer-events: none; /* que no bloquee clics */
+}
+

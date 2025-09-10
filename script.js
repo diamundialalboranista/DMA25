@@ -17,10 +17,13 @@ function renderGrid(items){
   grid.innerHTML = '';
 
   items.forEach(i => {
-    const hasThumb = Boolean(i.thumb);
-    const thumbHTML = hasThumb
-      ? `<img src="${i.thumb}" alt="Objeto de ${i.nombre}" class="thumb-img">`
-      : `${i.emoji || '🧳'}`;
+const thumbHTML = `
+  <div class="thumb-wrapper">
+    <img src="${i.thumb}" alt="Objeto de ${i.nombre}" class="thumb-img">
+    <div class="seal">${i.emoji || '🧳'}</div>
+  </div>
+`;
+
 
     const hasSocial = i.red && i.usuario;
     const redHTML = hasSocial
@@ -44,8 +47,7 @@ function renderGrid(items){
     grid.appendChild(li);
   });
 
-  // 👇 Quitamos el contador de aquí (para no contar solo la “página”)
-  // document.getElementById('count').textContent = `${items.length} viajeros`;
+ // document.getElementById('count').textContent = `${items.length} viajeros`;
 }
 
 function countrySet(items){
@@ -71,7 +73,7 @@ function updateView(){
   const slice = state.filtered.slice(0, upto);
   renderGrid(slice);
 
-  // ✅ Mostrar SIEMPRE el total (según filtros/búsqueda)
+  //  Mostrar SIEMPRE el total (según filtros/búsqueda)
   const total = state.filtered.length;
   const label = total === 1 ? 'viajero' : 'viajeros';
   document.getElementById('count').textContent = `${total} ${label}`;
