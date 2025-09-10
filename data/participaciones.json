@@ -178,8 +178,7 @@
   "mensaje": "Com elas vivi os melhores momentos tenho a historia mais linda Eu, elas e Pablo.",
   "emoji": "👯‍♀️",
   "thumb": "./assets/thumbs/17.png"
-}
-, 
+}, 
 {
   "nombre": "Yesenia Catherine Peña Castellanos",
   "usuario": "@catequina",
@@ -190,5 +189,17 @@
   "mensaje": "Ese cd es muy especial porque me lo regaló una persona a la que quiero mucho y estuvo en momentos primordiales de mi vida y por la cual me hizo conocer toda la música de este cantante tan maravilloso.",
   "emoji": "💿",
   "thumb": "./assets/thumbs/18.png"
+}, 
+{
+  "nombre": "Graciela",
+  "usuario": "@catequina",
+  "red": "x",
+  "pais": "Argentina",
+  "ciudad": "Bogotá",
+  "objeto": "Mi credencial de socia del Fans Club de Pablo!🥰 e inevitable llevar mi compañero, mi matero.",  
+  "mensaje": "Viaja conmigo siempre a todas partes por lo que es un acompañante de hermosos momentos y largas charlas de amistad! Encuentro y reencuentros cada año,cada gira...",
+  "emoji": "🧉",
+  "thumb": "./assets/thumbs/19.png"
 }
+
 ]
