@@ -60,5 +60,135 @@
   "mensaje": "Mi tapaboca de Vertigo porque fue cuando vivimos una experiencia especial conectados en concierto virtual. Mi baby Pelón de Pablo porque apoyamos siempre esas causas. Y las portales de los álbumes para que me acompañe siempre. Gracias al Club de fan Solamente Tú Uruguay, una gran familia que compartimos un mismo amor por nuestro Pablo.",
   "emoji": "😷",
   "thumb": "./assets/thumbs/6.png"
+},
+ {
+  "nombre": "Vanesa",
+  "usuario": "@noviasdealboranargentina",
+  "red": "instagram",
+  "pais": "Argentina",
+  "objeto": "Una entrada",
+  "mensaje": "Porque es el ingreso a la felicidad a ese abrazo Infinito que acaricia el alma y es la mejor terapia.",
+  "emoji": "🎟️",
+  "thumb": "./assets/thumbs/7.png"
+}, 
+{
+  "nombre": "Sol",
+  "usuario": "@soltapathiel",
+  "red": "instagram",
+  "pais": "Chile",
+  "ciudad": "Santiago",
+  "objeto": "Lentes de trébol",
+  "mensaje": "Los usé en el último concierto, son pura buena suerte y son divertidos.",
+  "emoji": "🍀",
+  "thumb": "./assets/thumbs/8.png"
+}, 
+{
+  "nombre": "Sara",
+  "usuario": "@saralisboa_17",
+  "red": "instagram",
+  "pais": "Portugal",
+  "ciudad": "Lisboa",
+  "objeto": "Fotos",
+  "mensaje": "Todas as alegrías, todas as conquistas, aventuras, loucuras e todo o respeito por o Pablo até ao final.",
+  "emoji": "🖼️",
+  "thumb": "./assets/thumbs/9.png"
+}, 
+{
+  "nombre": "Alicia Fernandez Alpuy",
+  "usuario": "@aliferaluy.2018",
+  "red": "instagram",
+  "pais": "Uruguay",
+  "ciudad": "Maldonado",
+  "objeto": "Bandera de mi país firmada por Pablo",
+  "mensaje": "La llevó a a todos sus conciertos.",
+  "emoji": "🏳️",
+  "thumb": "./assets/thumbs/10.png"
+}, 
+{
+  "nombre": "Pablo Alboran Turkey",
+  "usuario": "@palboranturkey",
+  "red": "instagram",
+  "pais": "Turquía",
+  "ciudad": "Estambul",
+  "objeto": "Un paquete de regalo con lokum turco, café turco, una postal, un álbum para que Pablo lo firme 🙏🏻, además de una bandera de Turquía 🇹🇷 y un pasaporte turco",
+  "mensaje": "Para mí son mucho más que objetos: representan mi cultura, mi cariño y mi deseo de llevarle un pedacito de Turquía a Pablo en su concierto. Quiero que sienta que su música también une corazones más allá de las fronteras. 🤍 Sueño con que en estos conciertos pueda tener la oportunidad de conocerlo y vivir ese momento tan especial 🙏🏻🤩",
+  "emoji": "☕",
+  "thumb": "./assets/thumbs/11.png"
+}, 
+{
+  "nombre": "Avril Alonso",
+  "usuario": "@avialonso_",
+  "red": "instagram",
+  "pais": "Uruguay",
+  "ciudad": "Montevideo",
+  "objeto": "Mi cámara polaroid",
+  "mensaje": "Porque tengo 19 años y todo mi mundo es digital y tener un recuerdo impreso es único, por eso la llevo a todos lados.",
+  "emoji": "📸",
+  "thumb": "./assets/thumbs/12.png"
+}, 
+{
+  "nombre": "Yamila",
+  "usuario": "@Yamilasoledadv",
+  "red": "instagram",
+  "pais": "Argentina",
+  "ciudad": "Rosario",
+  "objeto": "Un fibron, remera, credencial del fan club, un pink",
+  "mensaje": "Es la forma de identificarnos y que Pablo nos vea.",
+  "emoji": "🪪",
+  "thumb": "./assets/thumbs/13.png"
+}, 
+{
+  "nombre": "Marina",
+  "usuario": "@mariiina.uy",
+  "red": "instagram",
+  "pais": "Uruguay",
+  "ciudad": "Montevideo",
+  "objeto": "Mi primer foto con Pablo, el primer autógrafo que me didicó y el disco Prometo, mi favorito.",
+  "mensaje": "Cada una de las cosas son importantes para mí porque me hacen recordar que en cada uno de esos momentos fui demasiado feliz gracias a Pablo 🥹❤️",
+  "emoji": "💿",
+  "thumb": "./assets/thumbs/14.png"
+}, 
+{
+  "nombre": "Adriana Sanches Ruiz",
+  "usuario": "@drisruiz",
+  "red": "instagram",
+  "pais": "Brasil",
+  "ciudad": "São Paulo",
+  "objeto": "Mi bandera de Brasil, gafas de sol, passaporte e mi camiseta da Legion!",
+  "emoji": "🕶️",
+  "thumb": "./assets/thumbs/15.png"
+}, 
+{
+  "nombre": "Raquel",
+  "usuario": "@rakelous",
+  "red": "instagram",
+  "pais": "España",
+  "ciudad": "--",
+  "objeto": "Chuches",  
+  "mensaje": "--",
+  "emoji": "🍬",
+  "thumb": "./assets/thumbs/16.png"
+}, 
+{
+  "nombre": "Marcela Alencar",
+  "usuario": "@marcelasalencar",
+  "red": "instagram",
+  "pais": "Brasil",
+  "objeto": "Minhas amigas",  
+  "mensaje": "Com elas vivi os melhores momentos tenho a historia mais linda Eu, elas e Pablo.",
+  "emoji": "👯‍♀️",
+  "thumb": "./assets/thumbs/17.png"
+}
+, 
+{
+  "nombre": "Yesenia Catherine Peña Castellanos",
+  "usuario": "@catequina",
+  "red": "instagram",
+  "pais": "Colombia",
+  "ciudad": "Bogotá",
+  "objeto": "Mi cd favorito de Pablo Alborán llamado Terral",  
+  "mensaje": "Ese cd es muy especial porque me lo regaló una persona a la que quiero mucho y estuvo en momentos primordiales de mi vida y por la cual me hizo conocer toda la música de este cantante tan maravilloso.",
+  "emoji": "💿",
+  "thumb": "./assets/thumbs/18.png"
 }
 ]
