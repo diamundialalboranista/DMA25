@@ -22,7 +22,6 @@ function renderGrid(items){
       ? `<img src="${i.thumb}" alt="Objeto de ${i.nombre}" class="thumb-img">`
       : `${i.emoji || '🧳'}`;
 
-    // si hay red y usuario, prepara el HTML
     const hasSocial = i.red && i.usuario;
     const redHTML = hasSocial
       ? `<small class="social"><em><img src="./assets/icons/${i.red}.svg" alt="${i.red}" class="red-icon"> ${i.usuario}</em></small>`
@@ -45,7 +44,8 @@ function renderGrid(items){
     grid.appendChild(li);
   });
 
-  document.getElementById('count').textContent = `${items.length} viajeros`;
+  // 👇 Quitamos el contador de aquí (para no contar solo la “página”)
+  // document.getElementById('count').textContent = `${items.length} viajeros`;
 }
 
 function countrySet(items){
@@ -67,10 +67,16 @@ function applyFilters(){
 }
 
 function updateView(){
-  const upto = state.page * PAGE_SIZE;
+  const upto  = state.page * PAGE_SIZE;
   const slice = state.filtered.slice(0, upto);
   renderGrid(slice);
-  const hasMore = state.filtered.length > upto;
+
+  // ✅ Mostrar SIEMPRE el total (según filtros/búsqueda)
+  const total = state.filtered.length;
+  const label = total === 1 ? 'viajero' : 'viajeros';
+  document.getElementById('count').textContent = `${total} ${label}`;
+
+  const hasMore = total > upto;
   const btn = document.getElementById('load-more');
   btn.style.display = hasMore ? 'inline-flex' : 'none';
 }
@@ -79,16 +85,21 @@ function updateView(){
 loadData().then(items => {
   state.all = items;
   state.filtered = items;
-  // populate countries
+
   const select = document.getElementById('country-filter');
   countrySet(items).forEach(c => {
-    const opt = document.createElement('option'); opt.value = c; opt.textContent = c; select.appendChild(opt);
+    const opt = document.createElement('option');
+    opt.value = c; opt.textContent = c;
+    select.appendChild(opt);
   });
+
   document.getElementById('search').addEventListener('input', applyFilters);
   select.addEventListener('change', applyFilters);
   document.getElementById('load-more').addEventListener('click', () => {
-    state.page += 1; updateView();
+    state.page += 1;
+    updateView();
   });
+
   updateView();
 }).catch(err => {
   console.error('Error cargando datos', err);
