@@ -178,15 +178,17 @@ a:hover {
 
 .seal {
   position: absolute;
-  bottom: 5px;    /* puedes cambiar a top: 5px */
-  right: 5px;     /* o left: 5px si quieres */
-  font-size: 2rem;
-  opacity: 0.6;
-  border: 2px solid currentColor;
+  bottom: -10px;   /* baja más el sello */
+  right: -10px;    /* sácalo un poco de la foto */
+  font-size: 1.5rem;   /* más pequeño que antes */
+  opacity: 0.9;
+  color: #000;         /* color del emoji */
+  border: 2px solid #a00; /* borde rojo (puedes cambiar color) */
   border-radius: 50%;
-  padding: 5px;
-  background: rgba(255,255,255,0.6); /* da contraste sobre la foto */
+  padding: 4px;
+  background: transparent; /* SIN relleno */
   transform: rotate(-15deg);
-  pointer-events: none; /* que no bloquee clics */
+  pointer-events: none;
 }
+
 
