@@ -22,12 +22,10 @@ function renderGrid(items){
   items.forEach(i => {
     const sealColor = SEAL_COLORS[Math.floor(Math.random() * SEAL_COLORS.length)];
 
-    // Foto + sello (el sello siempre aparece)
-    const thumbHTML = `
-      <div class="thumb">
-        <img src="${i.thumb}" alt="Objeto de ${i.nombre}" class="thumb-img">
-        <span class="seal" style="border-color:${sealColor}">${i.emoji || '🧳'}</span>
-      </div>
+    // Contenido interno de la miniatura: imagen + sello
+    const thumbInner = `
+      <img src="${i.thumb}" alt="Objeto de ${i.nombre}" class="thumb-img">
+      <span class="seal" style="border-color:${sealColor}">${i.emoji || '🧳'}</span>
     `;
 
     // Red social (solo si hay red y usuario)
@@ -39,7 +37,7 @@ function renderGrid(items){
     const li = document.createElement('li');
     li.className = 'card';
     li.innerHTML = `
-      ${thumbHTML}
+      <div class="thumb">${thumbInner}</div>
       <div class="meta">
         <b class="nombre">${i.nombre}</b>
         <small>${i.ciudad} · ${i.pais}</small>
@@ -53,7 +51,7 @@ function renderGrid(items){
     grid.appendChild(li);
   });
 
-  // (el contador total se actualiza en updateView)
+  // el contador total se actualiza en updateView()
 }
 
 
