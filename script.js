@@ -54,7 +54,8 @@ function renderGrid(items){
     grid.appendChild(li);
   });
 }
-// document.getElementById('count').textContent = ${items.length} viajeros; }
+
+  // el contador total se actualiza en updateView()
 
 function countrySet(items){
   return [...new Set(items.map(i => normalizeCountry(i.pais)).filter(Boolean))].sort();
