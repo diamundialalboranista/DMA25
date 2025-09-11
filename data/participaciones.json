@@ -7,7 +7,6 @@
   "ciudad": "Barcelona",
   "objeto": "Mi madre",
   "mensaje": "Es una persona muy luchadora y muy fanática de Pablo Alborán igual que yo, y siempre hemos querido ir a un concierto suyo y nuestro sueño algún día es poder conocerlo en persona. Ya que cuando lo íbamos a conocer en persona, lamentablemente murió mi abuela y no pudimos ir a conocerlo ni a su concierto.",
-  "emoji": "👩🏻‍👧🏻",
   "thumb": "./assets/thumbs/1.png"
 },
 {
@@ -18,7 +17,6 @@
   "ciudad": "Rosario",
   "objeto": "Dije",
   "mensaje": "Más que guardar en la maleta es llevarla puesta, es un dije de un rompecabezas que nos regaló mi abuela y lo comparto con mis hermanos.",
-  "emoji": "📿",
   "thumb": "./assets/thumbs/2.png"
 },  
 {
@@ -27,7 +25,6 @@
   "ciudad": "Wevelgem",
   "objeto": "Auriculares",
   "mensaje": "Yo vivo en Belgica y siempre escucho a Pablo en el avión con estés auriculares.",
-  "emoji": "🎧",
   "thumb": "./assets/thumbs/3.png"
 },  
 {
@@ -37,7 +34,6 @@
   "pais": "Portugal",
   "objeto": "La bandera del club de fans de Portugal",
   "mensaje": "Nos acompaña a cada concierto y en cada viaje, representa el amor, cariño y respeto que tenemos por Pablo y su música!",
-  "emoji": "🏳️",
   "thumb": "./assets/thumbs/4.png"
 }, 
 {
@@ -48,7 +44,6 @@
   "ciudad": "Montevideo",
   "objeto": "Remera del Club de Fans Solamente Tú Uruguay",
   "mensaje": "Porque son familia y siempre parte mis aventuras Alboranezcas :-)",
-  "emoji": "👕",
   "thumb": "./assets/thumbs/5.png"
 },
  {
@@ -58,7 +53,6 @@
   "pais": "Uruguay",
   "objeto": "Varios objetos",
   "mensaje": "Mi tapaboca de Vertigo porque fue cuando vivimos una experiencia especial conectados en concierto virtual. Mi baby Pelón de Pablo porque apoyamos siempre esas causas. Y las portales de los álbumes para que me acompañe siempre. Gracias al Club de fan Solamente Tú Uruguay, una gran familia que compartimos un mismo amor por nuestro Pablo.",
-  "emoji": "😷",
   "thumb": "./assets/thumbs/6.png"
 },
  {
@@ -69,7 +63,6 @@
   "ciudad": "-",
   "objeto": "Una entrada",
   "mensaje": "Porque es el ingreso a la felicidad a ese abrazo Infinito que acaricia el alma y es la mejor terapia.",
-  "emoji": "🎟️",
   "thumb": "./assets/thumbs/7.png"
 }, 
 {
@@ -80,7 +73,6 @@
   "ciudad": "Santiago",
   "objeto": "Lentes de trébol",
   "mensaje": "Los usé en el último concierto, son pura buena suerte y son divertidos.",
-  "emoji": "🍀",
   "thumb": "./assets/thumbs/8.png"
 }, 
 {
@@ -91,7 +83,6 @@
   "ciudad": "Lisboa",
   "objeto": "Fotos",
   "mensaje": "Todas as alegrías, todas as conquistas, aventuras, loucuras e todo o respeito por o Pablo até ao final.",
-  "emoji": "🖼️",
   "thumb": "./assets/thumbs/9.png"
 }, 
 {
@@ -102,7 +93,6 @@
   "ciudad": "Maldonado",
   "objeto": "Bandera de mi país firmada por Pablo",
   "mensaje": "La llevó a a todos sus conciertos.",
-  "emoji": "🏳️",
   "thumb": "./assets/thumbs/10.png"
 }, 
 {
@@ -113,7 +103,6 @@
   "ciudad": "Estambul",
   "objeto": "Un paquete de regalo con lokum turco, café turco, una postal, un álbum para que Pablo lo firme 🙏🏻, además de una bandera de Turquía 🇹🇷 y un pasaporte turco",
   "mensaje": "Para mí son mucho más que objetos: representan mi cultura, mi cariño y mi deseo de llevarle un pedacito de Turquía a Pablo en su concierto. Quiero que sienta que su música también une corazones más allá de las fronteras. 🤍 Sueño con que en estos conciertos pueda tener la oportunidad de conocerlo y vivir ese momento tan especial 🙏🏻🤩",
-  "emoji": "☕",
   "thumb": "./assets/thumbs/11.png"
 }, 
 {
@@ -124,7 +113,6 @@
   "ciudad": "Montevideo",
   "objeto": "Mi cámara polaroid",
   "mensaje": "Porque tengo 19 años y todo mi mundo es digital y tener un recuerdo impreso es único, por eso la llevo a todos lados.",
-  "emoji": "📸",
   "thumb": "./assets/thumbs/12.png"
 }, 
 {
@@ -135,7 +123,6 @@
   "ciudad": "Rosario",
   "objeto": "Un fibron, remera, credencial del fan club, un pink",
   "mensaje": "Es la forma de identificarnos y que Pablo nos vea.",
-  "emoji": "🪪",
   "thumb": "./assets/thumbs/13.png"
 }, 
 {
@@ -146,7 +133,6 @@
   "ciudad": "Montevideo",
   "objeto": "Mi primer foto con Pablo, el primer autógrafo que me didicó y el disco Prometo, mi favorito.",
   "mensaje": "Cada una de las cosas son importantes para mí porque me hacen recordar que en cada uno de esos momentos fui demasiado feliz gracias a Pablo 🥹❤️",
-  "emoji": "💿",
   "thumb": "./assets/thumbs/14.png"
 }, 
 {
@@ -156,7 +142,6 @@
   "pais": "Brasil",
   "ciudad": "São Paulo",
   "objeto": "Mi bandera de Brasil, gafas de sol, passaporte e mi camiseta da Legion!",
-  "emoji": "🕶️",
   "thumb": "./assets/thumbs/15.png"
 }, 
 {
@@ -167,7 +152,6 @@
   "ciudad": "--",
   "objeto": "Chuches",  
   "mensaje": "--",
-  "emoji": "🍬",
   "thumb": "./assets/thumbs/16.png"
 }, 
 {
@@ -178,7 +162,6 @@
   "ciudad": "-",
   "objeto": "Minhas amigas",  
   "mensaje": "Com elas vivi os melhores momentos tenho a historia mais linda Eu, elas e Pablo.",
-  "emoji": "👯‍♀️",
   "thumb": "./assets/thumbs/17.png"
 }, 
 {
@@ -189,7 +172,6 @@
   "ciudad": "Bogotá",
   "objeto": "Mi cd favorito de Pablo Alborán llamado Terral",  
   "mensaje": "Ese cd es muy especial porque me lo regaló una persona a la que quiero mucho y estuvo en momentos primordiales de mi vida y por la cual me hizo conocer toda la música de este cantante tan maravilloso.",
-  "emoji": "💿",
   "thumb": "./assets/thumbs/18.png"
 }, 
 {
@@ -200,8 +182,26 @@
   "ciudad": "Rosario",
   "objeto": "Mi credencial de socia del Fans Club de Pablo!🥰 e inevitable llevar mi compañero, mi matero.",  
   "mensaje": "Viaja conmigo siempre a todas partes por lo que es un acompañante de hermosos momentos y largas charlas de amistad! Encuentro y reencuentros cada año,cada gira...",
-  "emoji": "🧉",
   "thumb": "./assets/thumbs/19.png"
+}, 
+{
+  "nombre": "Rosa Kozhaya",
+  "usuario": "@rosakozhaya",
+  "red": "instagram",
+  "pais": "Ecuador",
+  "ciudad": "Guayaquil",
+  "objeto": "Camiseta de Fama Fama , foto de Pablito y celular",  
+  "thumb": "./assets/thumbs/20.png"
+}, 
+{
+  "nombre": "Mari Nieves",
+  "usuario": "@prensa_alboran",
+  "red": "instagram",
+  "pais": "España",
+  "ciudad": "-",
+  "objeto": "Colgante de mi cuenta de apoyo, confeti y camiseta",  
+  "mensaje": "El colgante que me hice de mi cuenta de apoyo a pablo alborán es muy importante por que representa todo el recorrido en estos 13 años el confeti es algo símbolo en los conciertos de pablo y este confeti es especial y la camiseta por que creo que por fin podemos ir a los conciertos con algo simbólico.",
+  "thumb": "./assets/thumbs/21.png"
 }
 
 ]
