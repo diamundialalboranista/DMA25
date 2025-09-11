@@ -17,43 +17,47 @@ function renderGrid(items){
   grid.innerHTML = '';
 
   items.forEach(i => {
-    // 1) Sello aleatorio (si tus archivos son sello1.svg ... sello7.svg)
     const randomStamp = `./assets/stamps/sello${Math.floor(Math.random()*7) + 1}.svg`;
 
-    // (si NO los renombraste y siguen 21–27, usa esta variante)
-    // const nums = [21,22,23,24,25,26,27];
-    // const randomStamp = `./assets/stamps/sello${nums[Math.floor(Math.random()*nums.length)]}.svg`;
-
-    // 2) Miniatura + sello
     const thumbInner = `
       <img src="${i.thumb}" alt="Objeto de ${i.nombre}" class="thumb-img">
       <img src="${randomStamp}" alt="Sello" class="stamp">
     `;
 
-    // 3) Red social (si existe)
+    // Red social (si existe)
     const hasSocial = i.red && i.usuario;
     const redHTML = hasSocial
       ? `<small class="social"><em><img src="./assets/icons/${i.red}.svg" alt="${i.red}" class="red-icon"> ${i.usuario}</em></small>`
       : '';
 
-    // 4) Tarjeta
+    // Ciudad y país (si existen)
+    const locationHTML = (i.ciudad || i.pais)
+      ? `<small>${i.ciudad ? i.ciudad : ''}${i.ciudad && i.pais ? ' · ' : ''}${i.pais ? i.pais : ''}</small>`
+      : '';
+
+    // Mensaje (solo si existe)
+    const mensajeHTML = i.mensaje && i.mensaje.trim()
+      ? `<p><em>Por qué es importante:</em> ${i.mensaje}</p>`
+      : '';
+
     const li = document.createElement('li');
     li.className = 'card';
     li.innerHTML = `
       <div class="thumb">${thumbInner}</div>
       <div class="meta">
         <b class="nombre">${i.nombre}</b>
-        <small>${i.ciudad} · ${i.pais}</small>
+        ${locationHTML}
         ${redHTML}
         <div class="objeto">
           <p><strong>Objeto:</strong> ${i.objeto}</p>
-          <p><em>Por qué es importante:</em> ${i.mensaje}</p>
+          ${mensajeHTML}
         </div>
       </div>
     `;
     grid.appendChild(li);
   });
 }
+
 
   // el contador total se actualiza en updateView()
 
