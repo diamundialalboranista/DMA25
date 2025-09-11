@@ -16,24 +16,27 @@ function renderGrid(items){
   const grid = document.getElementById('grid');
   grid.innerHTML = '';
 
-  // Colores posibles para el borde del sello
-  const SEAL_COLORS = ['#A00', '#0A7', '#065CC7', '#F39C12', '#8E44AD'];
-
   items.forEach(i => {
-    const sealColor = SEAL_COLORS[Math.floor(Math.random() * SEAL_COLORS.length)];
+    // 1) Sello aleatorio (si tus archivos son sello1.svg ... sello7.svg)
+    const randomStamp = `./assets/stamps/sello${Math.floor(Math.random()*7) + 1}.svg`;
 
-    // Contenido interno de la miniatura: imagen + sello
+    // (si NO los renombraste y siguen 21–27, usa esta variante)
+    // const nums = [21,22,23,24,25,26,27];
+    // const randomStamp = `./assets/stamps/sello${nums[Math.floor(Math.random()*nums.length)]}.svg`;
+
+    // 2) Miniatura + sello
     const thumbInner = `
       <img src="${i.thumb}" alt="Objeto de ${i.nombre}" class="thumb-img">
-      <span class="seal" style="border-color:${sealColor}">${i.emoji || '🧳'}</span>
+      <img src="${randomStamp}" alt="Sello" class="stamp">
     `;
 
-    // Red social (solo si hay red y usuario)
+    // 3) Red social (si existe)
     const hasSocial = i.red && i.usuario;
     const redHTML = hasSocial
       ? `<small class="social"><em><img src="./assets/icons/${i.red}.svg" alt="${i.red}" class="red-icon"> ${i.usuario}</em></small>`
       : '';
 
+    // 4) Tarjeta
     const li = document.createElement('li');
     li.className = 'card';
     li.innerHTML = `
@@ -50,6 +53,7 @@ function renderGrid(items){
     `;
     grid.appendChild(li);
   });
+}
 
   // el contador total se actualiza en updateView()
 }
