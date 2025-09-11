@@ -16,15 +16,21 @@ function renderGrid(items){
   const grid = document.getElementById('grid');
   grid.innerHTML = '';
 
+  // Colores posibles para el borde del sello
+  const SEAL_COLORS = ['#A00', '#0A7', '#065CC7', '#F39C12', '#8E44AD'];
+
   items.forEach(i => {
-const thumbHTML = `
-  <div class="thumb-wrapper">
-    <img src="${i.thumb}" alt="Objeto de ${i.nombre}" class="thumb-img">
-    <div class="seal">${i.emoji || '🧳'}</div>
-  </div>
-`;
+    const sealColor = SEAL_COLORS[Math.floor(Math.random() * SEAL_COLORS.length)];
 
+    // Foto + sello (el sello siempre aparece)
+    const thumbHTML = `
+      <div class="thumb">
+        <img src="${i.thumb}" alt="Objeto de ${i.nombre}" class="thumb-img">
+        <span class="seal" style="border-color:${sealColor}">${i.emoji || '🧳'}</span>
+      </div>
+    `;
 
+    // Red social (solo si hay red y usuario)
     const hasSocial = i.red && i.usuario;
     const redHTML = hasSocial
       ? `<small class="social"><em><img src="./assets/icons/${i.red}.svg" alt="${i.red}" class="red-icon"> ${i.usuario}</em></small>`
@@ -33,7 +39,7 @@ const thumbHTML = `
     const li = document.createElement('li');
     li.className = 'card';
     li.innerHTML = `
-      <div class="thumb">${thumbHTML}</div>
+      ${thumbHTML}
       <div class="meta">
         <b class="nombre">${i.nombre}</b>
         <small>${i.ciudad} · ${i.pais}</small>
@@ -46,6 +52,10 @@ const thumbHTML = `
     `;
     grid.appendChild(li);
   });
+
+  // (el contador total se actualiza en updateView)
+}
+
 
  // document.getElementById('count').textContent = `${items.length} viajeros`;
 }
