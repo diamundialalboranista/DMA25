@@ -212,6 +212,25 @@
   "objeto": "Varios objetos",  
   "mensaje": "Porque es parte de mi orgullo alboranista.",
   "thumb": "./assets/thumbs/22.png"
+}, 
+{
+  "nombre": "Legión Alborán Brasil",
+  "usuario": "@legionalboran.br",
+  "red": "instagram",
+  "pais": "Brasil",
+  "ciudad": "São Paulo",
+  "objeto": "La bandera de nuestro país y de nuestro club de fans",  
+  "mensaje": "Es lo que simboliza nosotros como fans.",
+  "thumb": "./assets/thumbs/23.png"
+}, 
+{
+  "nombre": "Elizabete ",
+  "usuario": "Bete Leme",
+  "red": "facebook",
+  "pais": "Brasil",
+  "ciudad": "São Paulo",
+  "objeto": "A emoção de estar em um show pela primeira vez e tinha que ser do Pablo Alborán e levar meu dog junto.",
+  "thumb": "./assets/thumbs/24.png"
 }
 
 
