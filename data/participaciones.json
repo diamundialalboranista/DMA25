@@ -231,6 +231,16 @@
   "ciudad": "São Paulo",
   "objeto": "A emoção de estar em um show pela primeira vez e tinha que ser do Pablo Alborán e levar meu dog junto.",
   "thumb": "./assets/thumbs/24.png"
+},
+{
+  "nombre": "Marta",
+  "usuario": "@muy.alboranista",
+  "red": "instagram",
+  "pais": "España",
+  "ciudad": "Sevilla",
+  "objeto": "Una cámara y un cuadernito",
+  "mensaje": "La cámara representa mi pasión, además de mi labor en Muy Alboranista!, por recopilar las mejores fotos de cada concierto de las gira. El cuadernito será mi compañero de viaje, donde expresaré cómo vivo la gira: mis momentos favoritos, la canción que más me ha sorprendido en directo o en qué momento no he podido contener las lágrimas.",
+  "thumb": "./assets/thumbs/25.png"
 }
 
 
