@@ -149,9 +149,8 @@
   "usuario": "@rakelous",
   "red": "instagram",
   "pais": "España",
-  "ciudad": "--",
   "objeto": "Chuches",  
-  "mensaje": "--",
+  "mensaje": "No sé como , no hay concierto en el cual no nos hayan acompañado .  Calman  la espera en esos conciertos , porque siempre 10 minutos antes de que empiecen entra esa gusilla 🤣🤣 y ellas calman a la fiera del hambre y la de los nervios 🤣🤣 SIempre compartiendo, como la música ...  Y pq siempre sabe  a poco  como las gominolas 😋 Y en cualquier momento volvemos a ellas .. a las gomis y a los conciertos, Son nuestros SalvaFierasInteriores🤣",
   "thumb": "./assets/thumbs/16.png"
 }, 
 {
@@ -241,6 +240,16 @@
   "objeto": "Una cámara y un cuadernito",
   "mensaje": "La cámara representa mi pasión, además de mi labor en Muy Alboranista!, por recopilar las mejores fotos de cada concierto de las gira. El cuadernito será mi compañero de viaje, donde expresaré cómo vivo la gira: mis momentos favoritos, la canción que más me ha sorprendido en directo o en qué momento no he podido contener las lágrimas.",
   "thumb": "./assets/thumbs/25.png"
+},
+{
+  "nombre": "Daniela Vargas",
+  "usuario": "@adaniela_vargas",
+  "red": "instagram",
+  "pais": "Colombia",
+  "ciudad": "Bogotá",
+  "objeto": "La foto que tengo con Pablo y el CD que me firmó",
+  "mensaje": "Porque es una muestra de que los sueños se cumplen y me siento agradecida con la familia que él me dejó desde ese día.",
+  "thumb": "./assets/thumbs/26.png"
 }
 
 
