@@ -122,6 +122,8 @@ a:hover {
   border: 1px solid #f0e6d9;
   border-radius: 14px;
  overflow: visible;
+  text-align: justify;
+  text-justify: inter-word; /* ayuda a distribuir mejor las palabras */
 }
 .thumb {
   width: 120px; /* antes 72px */
