@@ -96,11 +96,13 @@ function updateView(){
 
 // --- Init ---
 loadData().then(items => {
-  state.all = items;
-  state.filtered = items;
+  const shuffled = shuffle(items);  // ← orden aleatorio una vez por carga
+
+  state.all = shuffled;
+  state.filtered = shuffled;
 
   const select = document.getElementById('country-filter');
-  countrySet(items).forEach(c => {
+  countrySet(shuffled).forEach(c => {
     const opt = document.createElement('option');
     opt.value = c; opt.textContent = c;
     select.appendChild(opt);
@@ -109,11 +111,17 @@ loadData().then(items => {
   document.getElementById('search').addEventListener('input', applyFilters);
   select.addEventListener('change', applyFilters);
   document.getElementById('load-more').addEventListener('click', () => {
-    state.page += 1;
-    updateView();
+    state.page += 1; updateView();
   });
 
   updateView();
-}).catch(err => {
-  console.error('Error cargando datos', err);
-});
+}).catch(err => console.error('Error cargando datos', err));
+
+function shuffle(arr){
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
