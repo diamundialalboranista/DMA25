@@ -247,6 +247,46 @@
   "objeto": "La foto que tengo con Pablo y el CD que me firmó",
   "mensaje": "Porque es una muestra de que los sueños se cumplen y me siento agradecida con la familia que él me dejó desde ese día.",
   "thumb": "./assets/thumbs/26.png"
+},
+{
+  "nombre": "María Camila Uribe Bermúdez",
+  "usuario": "@violindegomita",
+  "red": "instagram",
+  "pais": "Colombia",
+  "ciudad": "Ibagué",
+  "objeto": "Mi instrumento (mi viola) y muy buena música (mi disco autografiado)",
+  "mensaje": "Porque con buena música y buena compañía el viaje a cualquier destino se vuelve inolvidable.",
+  "thumb": "./assets/thumbs/27.png"
+},
+{
+  "nombre": "Valeria Alvarez Peralta",
+  "usuario": "@valejandral",
+  "red": "instagram",
+  "pais": "Ecuador",
+  "ciudad": "Cuenca",
+  "objeto": "Mi disco favorito y pasaporte",
+  "mensaje": "Para poder estar junto a Pablo, cantar sus canciones con toda el alma❤️",
+  "thumb": "./assets/thumbs/28.png"
+},
+{
+  "nombre": "Karina Guaján",
+  "usuario": "@karyguajan",
+  "red": "instagram",
+  "pais": "Ecuador",
+  "ciudad": "Quito",
+  "objeto": "La bandera de Ecuador",
+  "mensaje": "Porque representa mi orgullo y mi identidad. Es la manera de llevar a mi país conmigo y mostrar de dónde vengo en un momento tan especial como un concierto de Pablo.",
+  "thumb": "./assets/thumbs/29.png"
+},
+{
+  "nombre": "CFO Novias de Alborán Chile",
+  "usuario": "@noviasalboranchilefc",
+  "red": "instagram",
+  "pais": "Chile",
+  "ciudad": "Santiago",
+  "objeto": "Varios objetos",
+  "mensaje": "Hemos guardado en la maleta aquellos objetos que nos identifican como una familia que va unida por el mundo, compartiendo y apoyando a Pablo y su música con el amor y orgullo de ser Alboranistas!! Que nunca falte confeti ni globos, porque vivir una gira juntos, es la fiesta que siempre necesitan nuestros corazones💜💜🇨🇱",
+  "thumb": "./assets/thumbs/30.png"
 }
 
 
