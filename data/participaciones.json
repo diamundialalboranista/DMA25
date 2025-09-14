@@ -535,6 +535,25 @@
   "objeto": "Una foto del club Novias de Alborán Chile",
   "mensaje": "Porque a cualquier aventura Alboranista si no las llevo en la maleta, las llevo en el corazón 💜 y obvio una batería de reserva para no perder registro de nada!",
   "thumb": "./assets/thumbs/56.png"
+},
+{
+  "nombre": "Daiana",
+  "usuario": "@daisa.95",
+  "red": "instagram",
+  "pais": "Argentina",
+  "ciudad": "Rosario",
+  "objeto": "Credencial y entrada",
+  "thumb": "./assets/thumbs/57.png"
+},
+{
+  "nombre": "Daniela Briones",
+  "usuario": "@danielabrionesdiaz",
+  "red": "instagram",
+  "pais": "Chile",
+  "ciudad": "Santiago",
+  "objeto": "Foto de Pablo",
+  "mensaje": "Lo más valioso que tengo.",
+  "thumb": "./assets/thumbs/58.png"
 }
 
 ]
