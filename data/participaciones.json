@@ -495,7 +495,36 @@
   "ciudad": "Medellín",
   "objeto": "Recuerdos",
   "mensaje": "Recuerdos del mejor regalo que me ha dado la música de Pablito: amigas! por todo el mundo",
-  "thumb": "./assets/thumbs/51.png"
+  "thumb": "./assets/thumbs/52.png"
+},
+{
+  "nombre": "Carla Sosa",
+  "usuario": "@caarlisosa",
+  "red": "instagram",
+  "pais": "Argentina",
+  "ciudad": "Mendoza",
+  "objeto": "Dulces, entrada, esmalte y credencial",
+  "mensaje": "Estos objetos son importantes porque el chocolates y alfajor son infaltables lo dulce para la espera, la entrada a los conciertos de Pablo indispensable como el brillo de el esmalte siempre presente en todas las giras de conciertos y la credencial de Familia Alborán Mendoza Argentina ❤️",
+  "thumb": "./assets/thumbs/53.png"
+},
+{
+  "nombre": "Juliane Rodrigues",
+  "usuario": "@julianemrodrigues",
+  "red": "instagram",
+  "pais": "Brasil",
+  "ciudad": "Santos",
+  "objeto": "Recuerdo de mi ciudad",
+  "mensaje": "Guardé en la maleta mi orgullo de ser brasileña, un recuerdo de mi ciudad, mi KM0.",
+  "thumb": "./assets/thumbs/54.png"
+},
+{
+  "nombre": "Nicole Hidalgo",
+  "usuario": "@__nicol.hs._",
+  "red": "instagram",
+  "pais": "Chile",
+  "ciudad": "Santiago",
+  "objeto": "Chapitas de las promos con novia credencial polera del club gorra para sol",
+  "thumb": "./assets/thumbs/55.png"
 }
 
 ]
