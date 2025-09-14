@@ -388,13 +388,6 @@
   "thumb": "./assets/thumbs/41.png"
 },
 {
-  "nombre": "Damaris Presmita",
-  "pais": "Chile",
-  "ciudad": "Talcahuano",
-  "objeto": "Mi poleron del club al que represento con orgullo y amor, mi bandera Chilena que es mi patria amada ,recuerdos invaluables de mis tours junto a Pablito",
-  "thumb": "./assets/thumbs/41.png"
-},
-{
   "nombre": "Soledad Martínez Ruadas",
   "usuario": "@soledad_martinez_ruadas",
   "red": "instagram",
@@ -473,6 +466,5 @@
   "mensaje": "Cumplí mi sueño de verlo en concierto un día inolvidable totalmente la llevaría como amuleto.",
   "thumb": "./assets/thumbs/49.png"
 }
-
 
 ]
