@@ -554,6 +554,36 @@
   "objeto": "Foto de Pablo",
   "mensaje": "Lo más valioso que tengo.",
   "thumb": "./assets/thumbs/58.png"
+},
+{
+  "nombre": "Carolina Berna",
+  "usuario": "@Caritoo.lis",
+  "red": "instagram",
+  "pais": "Chile",
+  "ciudad": "Santiago",
+  "objeto": "Polera, lentes y flor",
+  "mensaje": "Es importante ir con quien represente este gran amor por la música de Pablo, mis lentes para después de todo lo que lloraré y una flor para quien lo necesite.",
+  "thumb": "./assets/thumbs/59.png"
+},
+{
+  "nombre": "Márcia",
+  "usuario": "@MarciaFernandes",
+  "red": "instagram",
+  "pais": "Brasil",
+  "ciudad": "São Paulo",
+  "objeto": "Uma caneca",
+  "mensaje": "Ela me lembra de que devo sempre viajar e conhecer o mundo.",
+  "thumb": "./assets/thumbs/60.png"
+},
+{
+  "nombre": "Julieta Quiroga",
+  "usuario": "@julietanam",
+  "red": "instagram",
+  "pais": "Brasil",
+  "ciudad": "São Paulo",
+  "objeto": "Libro y auriculares",
+  "mensaje": " un libro para viajar un poquito von esas historias bellas y los auriculares obvio para escuchar linda musiquita y obvio a Pablitoooo.",
+  "thumb": "./assets/thumbs/61.png"
 }
 
 ]
