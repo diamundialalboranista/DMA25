@@ -525,6 +525,16 @@
   "ciudad": "Santiago",
   "objeto": "Chapitas de las promos con novia credencial polera del club gorra para sol",
   "thumb": "./assets/thumbs/55.png"
+},
+{
+  "nombre": "Mey Lee",
+  "usuario": "@meylu_m",
+  "red": "instagram",
+  "pais": "Chile",
+  "ciudad": "Santiago",
+  "objeto": "Una foto del club Novias de Alborán Chile",
+  "mensaje": "Porque a cualquier aventura Alboranista si no las llevo en la maleta, las llevo en el corazón 💜 y obvio una batería de reserva para no perder registro de nada!",
+  "thumb": "./assets/thumbs/55.png"
 }
 
 ]
