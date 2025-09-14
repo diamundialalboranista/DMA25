@@ -439,11 +439,12 @@
 },
 {
   "nombre": "Maria Eugenia Verdini",
+  "usuario": "@maugeverdini",
+  "red": "instagram",
   "pais": "Argentina",
   "ciudad": "Mendoza",
   "objeto": "Credencial",
-  "mensaje": "Valija llena de ilusión,amor,felicidad  como cada viaje que emprendo cuando voy a los conciertos de Pablo,y lo mas importante nuestra identidad como grupo ,la credencial de Familia Alboran Argentina y Mendoza ..nuestra credencial es la viva imagen de todo lo que hacemos para difundir la música de Pablo y con todo el amor que la llevamos cada vez que lo vemos.. Es que simplemente él( Pablo,) es el nexo entre muchas almas que disfrutan de su arte..
-",
+  "mensaje": "Valija llena de ilusión,amor,felicidad  como cada viaje que emprendo cuando voy a los conciertos de Pablo,y lo mas importante nuestra identidad como grupo ,la credencial de Familia Alboran Argentina y Mendoza ..nuestra credencial es la viva imagen de todo lo que hacemos para difundir la música de Pablo y con todo el amor que la llevamos cada vez que lo vemos.. Es que simplemente él( Pablo,) es el nexo entre muchas almas que disfrutan de su arte...",
   "thumb": "./assets/thumbs/47.png"
 },
 {
@@ -465,6 +466,36 @@
   "objeto": "La camisa que use en el tour la cuarta hoja",
   "mensaje": "Cumplí mi sueño de verlo en concierto un día inolvidable totalmente la llevaría como amuleto.",
   "thumb": "./assets/thumbs/49.png"
+},
+{
+  "nombre": "Stephanie Carvalho Magalhães",
+  "usuario": "@stephanie.magalhaes_",
+  "red": "instagram",
+  "pais": "Brasil",
+  "ciudad": "Feira de Santana",
+  "objeto": "Calendario",
+  "mensaje": "A lo largo de los días lo que más se espera es el anuncio de la entradas de la gira, entonces en mi bolso trajo el calendario para no olvidar que “los días más felices no han llegado” y el recuerdo del anuncio del show en Brasil. Este momento es inolvidable en mi cabeza y en mi corazón!",
+  "thumb": "./assets/thumbs/50.png"
+},
+{
+  "nombre": "Lauri",
+  "usuario": "@--",
+  "red": "instagram",
+  "pais": "Argentina",
+  "ciudad": "Rosario",
+  "objeto": "Credencial",
+  "mensaje": "Hace 11 años que soy Fan de Pablo y él es un oasis en mí vida!",
+  "thumb": "./assets/thumbs/51.png"
+},
+{
+  "nombre": "Patricia",
+  "usuario": "@aaangelapatricia",
+  "red": "instagram",
+  "pais": "Colombia",
+  "ciudad": "Medellín",
+  "objeto": "Recuerdos",
+  "mensaje": "Recuerdos del mejor regalo que me ha dado la música de Pablito: amigas! por todo el mundo",
+  "thumb": "./assets/thumbs/51.png"
 }
 
 ]
