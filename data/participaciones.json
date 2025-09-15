@@ -479,12 +479,13 @@
 },
 {
   "nombre": "Lauri",
-  "usuario": "@--",
+  "usuario": "@la.lauri_",
   "red": "instagram",
   "pais": "Argentina",
   "ciudad": "Rosario",
-  "objeto": "Credencial",
-  "mensaje": "Hace 11 años que soy Fan de Pablo y él es un oasis en mí vida!",
+  "objeto": "Mí credencial del club de fans",
+  "mensaje": "Porque es como la llave que abre las puertas a sus conciertos que me son tan necesarios. 
+",
   "thumb": "./assets/thumbs/51.png"
 },
 {
@@ -584,6 +585,36 @@
   "objeto": "Libro y auriculares",
   "mensaje": " un libro para viajar un poquito von esas historias bellas y los auriculares obvio para escuchar linda musiquita y obvio a Pablitoooo.",
   "thumb": "./assets/thumbs/61.png"
+},
+{
+  "nombre": "Thalita Cracco Carrara",
+  "usuario": "@thalita_carrara_",
+  "red": "instagram",
+  "pais": "Brasil",
+  "ciudad": "Curitiba",
+  "objeto": "Varios objetos",
+  "mensaje": "Meu amor pela música e meu amor por meus gatos",
+  "thumb": "./assets/thumbs/62.png"
+},
+{
+  "nombre": "Guilherme Costa",
+  "usuario": "@19guilherme93",
+  "red": "instagram",
+  "pais": "Brasil",
+  "ciudad": "Belo Horizonte",
+  "objeto": "Mis pasos de cero, mis recuerdos, mi refugio, mis castillos de arena y las gracias",
+  "mensaje": "Coloquei na mala "mis pasos de cero" porque quero levar comigo o meu inicio, "mis recuerdos" porque quero levar as memórias de cada música e show passados, "mi refugio" porque assim estarei protegido e tranquilo, "mis castillos de arena" porque são meus sonhos, e "las gracias" porque gratidão é o meu maior sentimento nessa viagem, por finalmente ver o Pablo no Brasil!",
+  "thumb": "./assets/thumbs/63.png"
+},
+{
+  "nombre": "Marcele Cristine Loreto Morais",
+  "usuario": "@marceleloreto",
+  "red": "instagram",
+  "pais": "Brasil",
+  "ciudad": "Contagem",
+  "objeto": "Meu passaporte e a blusa linda do fã clube",
+  "mensaje": "Esses itens são importantes porque o passaporte me permite viajar para vários lugares e a camisa do fã clube porque é maravilhoso levar o nosso manto para todos os lugares e deixar o Pablo ver que a o Brasil o acompanha para todos os lugares que ele for.",
+  "thumb": "./assets/thumbs/64.png"
 }
 
 ]
