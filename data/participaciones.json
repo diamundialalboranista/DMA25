@@ -484,8 +484,7 @@
   "pais": "Argentina",
   "ciudad": "Rosario",
   "objeto": "Mí credencial del club de fans",
-  "mensaje": "Porque es como la llave que abre las puertas a sus conciertos que me son tan necesarios. 
-",
+  "mensaje": "Porque es como la llave que abre las puertas a sus conciertos que me son tan necesarios.",
   "thumb": "./assets/thumbs/51.png"
 },
 {
@@ -593,7 +592,7 @@
   "pais": "Brasil",
   "ciudad": "Curitiba",
   "objeto": "Varios objetos",
-  "mensaje": "Meu amor pela música e meu amor por meus gatos",
+  "mensaje": "Meu amor pela música e meu amor por meus gatos.",
   "thumb": "./assets/thumbs/62.png"
 },
 {
